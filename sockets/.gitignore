@@ -1,0 +1,58 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+client
+server
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+.*.swp
+*~
+
+# Ids trash 
+.vscode/ 
+
+# Archivos de prueba 
+casos/ 
+salidas/ 
+testcases/
+compare_outputs.sh
+run_tests.sh
+run_precommit.sh
+runserver.sh
+runclient.sh
+common_src/wrap_socket.cpp
